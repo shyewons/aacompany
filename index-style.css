@@ -222,7 +222,7 @@ header .sns-container a .fa-youtube:hover {
 /* contact-link-container */
 
 .contact-link-container {
-    background: url(images/contact-back.png) no-repeat;
+    background: url(index-images/contact-back.png) no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: 100vw;
