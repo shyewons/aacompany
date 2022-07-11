@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="index-style.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/78cbb34de2.js" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <title>AA Company</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="#">AA Company</a>
+        </div>
+        <div class="menu-container">
+            <a href="#">About AC</a>
+            <a href="#">Servies</a>
+            <a href="#">News</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="sns-container">
+            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </header>
+    <section>
+        <div class="slide-container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="slideimg1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="slideimg2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="slideimg2.jpg" alt=""></div>
+                </div>
+                    <div class="swiper-button-next" style="display: none"></div>
+                    <div class="swiper-button-prev" style="display: none"></div>
+                    <div class="swiper-pagination"></div>
+              </div>
+        </div>
+        <div class="servies-container">
+            <div class="servies-title">
+                <a href="#">AC Servies</a>
+                <a href="#" class="more-btn">more&#9656</a>
+            </div>
+            <div class="sevies-btn-wrap">
+                <div class="servies-btn">
+                    <img src="index-images/food1.jpg" alt="">
+                    <div class="servies-content">
+                        <p>Servies type</p>
+                        <a href="#">바로가기</a>
+                    </div>
+                </div>
+                <div class="servies-btn">
+                    <img src="index-images/food2.jpg" alt="">
+                    <div class="servies-content">
+                        <p>Servies type</p>
+                        <a href="#">바로가기</a>
+                    </div>
+                </div>
+                <div class="servies-btn">
+                    <img src="index-images/food3.jpg" alt="">
+                    <div class="servies-content">
+                        <p>Servies type</p>
+                        <a href="#">바로가기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-link-container">
+            <p>AA Company와 함께하세요!</p>
+            <a href="#">Contact&#9656</a>
+        </div>
+        <div class="news-container">
+            <div class="news-title">
+                <a href="#">News</a>
+                <a href="#" class="more-btn">more&#9656</a>
+            </div>
+            <div class="news-content-wrap">
+                <a href="#" class="news-content">
+                    <img src="index-images/news.png" alt="">
+                    <p>기사제목</p>
+                    <p>2022-00-00</p>
+                </a>
+                <a href="#" class="news-content">
+                    <img src="index-images/news.png" alt="">
+                    <p>기사제목</p>
+                    <p>2022-00-00</p>
+                </a>
+                <a href="#" class="news-content">
+                    <img src="index-images/news.png" alt="">
+                    <p>기사제목</p>
+                    <p>2022-00-00</p>
+                </a>
+            </div>
+        </div>
+        <div class="youtube-container">
+            <div class="youtube-title">
+                <a href="#">YOUTUBE</a>
+                <a href="#" class="more-btn">more&#9656</a>
+            </div>
+            <div class="youtube-content-wrap">
+                <div class="left">
+                    <div class="text-wrap">
+                        <p>AA Company를 영상으로</p>
+                        <p>생생하게 즐겨보세요!</p>
+                    </div>
+                    <div class="slide-btn">
+                        <a href="javascript:void(0)" class="next">&gt</a>
+                        <a href="javascript:void(0)" class="prev" onclick="prevfunction()">&lt</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="view-zone">
+                        <a href="#" class="movies-list">
+                            <img src="index-images/youtube1.png" alt="">
+                            <p class="movies-name">AA Company 사내 단체 여행</p>
+                            <p class="movies-date">2022-00-00</p>
+                        </a>
+                        <a href="#" class="movies-list">
+                            <img src="index-images/youtube2.png" alt="">
+                            <p class="movies-name">회사에서 즐기는 커피 한 잔</p>
+                            <p class="movies-date">2022-00-00</p>
+                        </a>
+                        <a href="#" class="movies-list">
+                            <img src="index-images/youtube3.png" alt="">
+                            <p class="movies-name">신제품 출시</p>
+                            <p class="movies-date">2022-00-00</p>
+                        </a>
+                        <a href="#" class="movies-list">
+                            <img src="index-images/youtube1.png" alt="">
+                            <p class="movies-name">AA Company 사내 단체 여행</p>
+                            <p class="movies-date">2022-00-00</p>
+                        </a>
+                        <a href="#" class="movies-list">
+                            <img src="index-images/youtube2.png" alt="">
+                            <p class="movies-name">회사에서 즐기는 커피 한 잔</p>
+                            <p class="movies-date">2022-00-00</p>
+                        </a>
+                        <a href="#" class="movies-list">
+                            <img src="index-images/youtube3.png" alt="">
+                            <p class="movies-name">신제품 출시</p>
+                            <p class="movies-date">2022-00-00</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <div class="left">
+            <div class="link-wrap">
+                <a href="#" class="highlight">개인정보처리방침</a>
+                <a href="#">공지사항</a>
+                <a href="#">오시는길</a>
+            </div>
+            <p>서울시 강남구</p>
+            <div class="familysite-wrap">
+                <dl>
+                    <dt class="familysite-dt">FAMILY SITE &#9652;</dt>
+                    <div class="dd-wrap">
+                        <a href="#"><dd>site1</dd></a>
+                        <a href="#"><dd>site2</dd></a>
+                        <a href="#"><dd>site3</dd></a>
+                        <a href="#"><dd>site4</dd></a>
+                    </div>
+                </dl>
+            </div>
+        </div>
+        <div class="right">
+            <p>AA</p>
+            <p>Company</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index-script.js"></script>
+
+</body>
+
+
+</html>
