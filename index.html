@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="all-style.css">
 
     <link rel="stylesheet"
     href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -27,8 +27,8 @@
             <a href="#">AA Company</a>
         </div>
         <div class="menu-container">
-            <a href="#">About AC</a>
-            <a href="#">Servies</a>
+            <a href="about-ac/about-ac.html">About AC</a>
+            <a href="servies/servies.html">Servies</a>
             <a href="#">News</a>
             <a href="#">Contact</a>
         </div>
@@ -54,7 +54,7 @@
         <div class="servies-container">
             <div class="servies-title">
                 <a href="#">AC Servies</a>
-                <a href="#" class="more-btn">more&#9656</a>
+                <a href="#" class="more-btn">more&#9656;</a>
             </div>
             <div class="sevies-btn-wrap">
                 <div class="servies-btn">
@@ -82,12 +82,12 @@
         </div>
         <div class="contact-link-container">
             <p>AA Company와 함께하세요!</p>
-            <a href="#">Contact&#9656</a>
+            <a href="#">Contact&#9656;</a>
         </div>
         <div class="news-container">
             <div class="news-title">
                 <a href="#">News</a>
-                <a href="#" class="more-btn">more&#9656</a>
+                <a href="#" class="more-btn">more&#9656;</a>
             </div>
             <div class="news-content-wrap">
                 <a href="#" class="news-content">
@@ -110,7 +110,7 @@
         <div class="youtube-container">
             <div class="youtube-title">
                 <a href="#">YOUTUBE</a>
-                <a href="#" class="more-btn">more&#9656</a>
+                <a href="#" class="more-btn">more&#9656;</a>
             </div>
             <div class="youtube-content-wrap">
                 <div class="left">
@@ -119,15 +119,15 @@
                         <p>생생하게 즐겨보세요!</p>
                     </div>
                     <div class="slide-btn">
-                        <a href="javascript:void(0)" class="next">&gt</a>
-                        <a href="javascript:void(0)" class="prev" onclick="prevfunction()">&lt</a>
+                        <a href="javascript:void(0)" class="next">&gt;</a>
+                        <a href="javascript:void(0)" class="prev">&lt;</a>
                     </div>
                 </div>
                 <div class="right">
                     <div class="view-zone">
                         <a href="#" class="movies-list">
                             <img src="index-images/youtube1.png" alt="">
-                            <p class="movies-name">AA Company 사내 단체 여행</p>
+                            <p class="movies-name">AA Company 워크숍</p>
                             <p class="movies-date">2022-00-00</p>
                         </a>
                         <a href="#" class="movies-list">
@@ -142,7 +142,7 @@
                         </a>
                         <a href="#" class="movies-list">
                             <img src="index-images/youtube1.png" alt="">
-                            <p class="movies-name">AA Company 사내 단체 여행</p>
+                            <p class="movies-name">AA Company 포상휴가</p>
                             <p class="movies-date">2022-00-00</p>
                         </a>
                         <a href="#" class="movies-list">
@@ -170,15 +170,13 @@
             </div>
             <p>서울시 강남구</p>
             <div class="familysite-wrap">
-                <dl>
-                    <dt class="familysite-dt">FAMILY SITE &#9652;</dt>
-                    <div class="dd-wrap">
-                        <a href="#"><dd>site1</dd></a>
-                        <a href="#"><dd>site2</dd></a>
-                        <a href="#"><dd>site3</dd></a>
-                        <a href="#"><dd>site4</dd></a>
-                    </div>
-                </dl>
+                <select name="familesite" id="familelist">
+                    <option value="#">FAMILY SITE</option>
+                    <option value="#">site1</option>
+                    <option value="#">site2</option>
+                    <option value="#">site3</option>
+                    <option value="#">site4</option>
+                </select>
             </div>
         </div>
         <div class="right">
@@ -188,6 +186,7 @@
     </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="all-script.js"></script>
     <script src="index-script.js"></script>
 
 </body>

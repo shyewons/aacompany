@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+ul,li,ol {
+    list-style: none;
+}
+
+p, h1,h2,h3,h4,ul,ol,li,dl,dt,dd {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    outline: none;
+}
+
+div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body, html {
+    margin: 0;
+    width: 100%;
+    font-family: 'NanumSquare';
+    scroll-behavior: smooth; 
+    user-select: none;
+}
+
+/* header */
+
+header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+header.scroll {
+    color: #000;
+    background: #fff;
+    border-bottom: 1px solid #000;
+}
+
+header .logo-container {
+    font-size: 30pt;
+    width: 300px;
+}
+
+header .menu-container {
+    font-size: 22pt;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header .menu-container a:hover {
+    color: #2d8383;
+}
+
+header .sns-container {
+    font-size: 30pt;
+}
+
+header .sns-container a i {
+    transition: 0.3s;
+}
+
+header .sns-container a .fa-facebook-square:hover {
+    color: #4867aa;
+}
+
+header .sns-container a .fa-twitter-square:hover {
+    color: #2aa9e0;
+}
+
+header .sns-container a .fa-youtube:hover {
+    color: #ff0000;
+}
+
+
+/* footer */
+
+footer {
+    border-top: 1px solid #000;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+
+footer .link-wrap .highlight {
+    color: #2d8383;
+    font-weight: 600;
+}
+
+footer .link-wrap a {
+    position: relative;
+    margin-right: 15px;
+}
+
+footer .link-wrap a:after {
+    content:"";
+    position: absolute;
+    right: -10px;
+    top: 7px;
+    width: 1px;
+    height: 10px;
+    background: #777;
+}
+
+footer .link-wrap a:last-child::after {
+    display: none;
+}
+/* 
+footer .familysite-wrap {
+    position: relative;
+}
+
+footer .familysite-wrap dt {
+    border: 1px solid #000;
+    width: 120px;
+    padding: 5px;
+}
+
+footer .familysite-wrap .dd-wrap {
+    position: absolute;
+    top: -90px;
+}
+
+footer .familysite-wrap dd:nth-child(1) {
+    border-top: 1px solid #000;
+}
+
+footer .familysite-wrap dd {
+    width: 120px;
+    border: 1px solid #000;
+    border-top: none;
+    padding-left: 20px;
+    background: #fff;
+    display: none;
+}
+
+footer .familysite-wrap dd:hover {
+    background: #2d8383;
+    color: #fff;
+}
+
+footer .familysite-wrap dd.on {
+    display: block;
+} */
+
+footer p {
+    margin-top: 8px;
+}
+
+footer #familelist {
+    width: 150px;
+    height: 30px;
+    font-size: 12pt;
+    margin-top: 8px;
+}
+
+footer .right {
+    font-size: 24pt;
+    text-align: right;
+    line-height: 30px;
+    font-weight: 500;
+}
